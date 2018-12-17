@@ -1,6 +1,6 @@
 <?php
 
-use App;
+namespace App;
 
 interface CarroSedan
 {

@@ -1,8 +1,9 @@
 <?php
 
-use App;
+namespace App;
 
-interface FabricaDeCarro{
+interface FabricaDeCarro
+{
     public function criarCarroSedan();
     public function criarCarroPopular();
 }

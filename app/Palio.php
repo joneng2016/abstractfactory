@@ -1,8 +1,8 @@
 <?php
 
-use App;
+namespace App;
 
-public class Palio implements CarroPopular
+class Palio implements CarroPopular
 {
     public function exibirInfoPopular()
     {

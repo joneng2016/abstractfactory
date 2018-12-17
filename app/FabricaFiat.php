@@ -1,6 +1,6 @@
 <?php
 
-use App;
+namespace App;
 
 class FabricaFiat implements FabricaDeCarro
 {

@@ -1,10 +1,11 @@
 <?php
 
-use App;
+namespace App;
 
-class Siena extends CarroSedan
+class Siena implements CarroSedan
 {
-    public function exibirInfoSedan(){
+    public function exibirInfoSedan()
+    {
         echo "Modelo: Sedan";
     }
 }
